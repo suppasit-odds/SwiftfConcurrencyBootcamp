@@ -11,7 +11,10 @@ import SwiftUI
 struct SwiftfConcurrencyBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            DoCatchTryThrowsBootcamp()
+            TaskBootcampHomeViw()
+//            TaskBootcamp()
+//            AsyncAwaitBootcamp()
+//            DoCatchTryThrowsBootcamp()
 //            ContentView()
         }
     }
