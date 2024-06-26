@@ -31,7 +31,7 @@ struct AsyncLetBootcamp: View {
                     async let fetchImage1 = fetchImage()
                     async let fetchTitle1 = fetchTitle()
                     
-                    let (image, title) = await (try fetchImage1, fetchTitle1)
+                    let (image, _) = await (try fetchImage1, fetchTitle1)
                     self.images.append(image)
                     
 //                    async let fetchImage2 = fetchImage()
